@@ -52,7 +52,6 @@ git clone https://github.com/your-username/todo-list-js.git
     <td>
       <b>Dhananjay Mukhiya</b><br>
       🎓 CSE Student @ NGP Patna<br>
-      🌱 Learning from: <b>Love Babbar's Dot Batch</b><br>
       💻 Tech Stack: MERN, HTML, CSS, JavaScript<br>
       🔗 GitHub: <a href="https://github.com/DhananjayMukhiya">@dhananjaymukhiya</a>
     </td>

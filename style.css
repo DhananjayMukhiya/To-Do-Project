@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(232, 238, 238);
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-container {
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.input-container input {
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    margin-block: 12px 0;
+    border: 4px;
+    font-size: 1rem;
+}
+
+.input-container input[type="text"] {
+    width: 70%;   
+}
+
+.input-container input[type="text"]:focus {
+   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-container input[type="button"] {
+    background-color: #3da33d;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.input-container input[type="button"]:hover {
+    background-color: #60b160;
+}
+
+ul {
+    width: 100%;
+    max-width: 450px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+    border: 0.125px solid #a19f9f;
+    border-radius: 8px;
+    margin-block-end: 12px;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #cbcaca;
+}
+
+ul li p {
+    flex-grow: 1;
+    padding: 2px;
+}
+
+
+.btn {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.deleteBtn {
+    color: #ff0000;
+}
+
+.editBtn {
+    color: #008000;
+}

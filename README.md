@@ -14,6 +14,12 @@ A simple yet powerful **To-Do List** web application built using **HTML, CSS, an
 
 ---
 
+## 🌐 Live Preview
+
+> 🚀 [Click here to view the live demo](https://dhananjaymukhiya.github.io/To-Do-Project/)
+
+---
+
 ## 📸 Video Preview
 
 https://github.com/user-attachments/assets/13ddb28a-25b3-47ab-9fc9-e25fb5a9e21d
